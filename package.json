@@ -1,0 +1,25 @@
+{
+  "name": "eleventysite",
+  "version": "0.0.1",
+  "description": "Eleventy Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [
+    "eleventy",
+    "website"
+  ],
+  "author": "Ashokchakravarthi Nagarajan",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "mustache": "^4.2.0",
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
